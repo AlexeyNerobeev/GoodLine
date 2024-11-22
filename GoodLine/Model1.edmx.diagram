@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aa17b2b26e6a4f5a89867391c806390d" Name="Diagram1">
+        <EntityTypeShape EntityType="GoodLineModel.Clients" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoodLineModel.Materials" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoodLineModel.Orders" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoodLineModel.Products" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoodLineModel.Sewing" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoodLineModel.Suppliers" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GoodLineModel.sysdiagrams" Width="1.5" PointX="7.875" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="GoodLineModel.FK__Orders__ClientID__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="GoodLineModel.FK__Materials__Suppl__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="GoodLineModel.FK__Sewing__Material__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="GoodLineModel.FK__Sewing__OrderID__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="GoodLineModel.FK__Sewing__ProductI__6E01572D" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="GoodLineModel.Users" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="GoodLineModel.Employees" Width="1.5" PointX="9.625" PointY="2" />
+        <AssociationConnector Association="GoodLineModel.FK__Employees__UserI__634EBE90" />
+        <AssociationConnector Association="GoodLineModel.FK_Sewing_Employees" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
